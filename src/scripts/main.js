@@ -32,3 +32,18 @@ const ginger = {
 const familyMembers = [ken, cassie, peach, ginger];
 
 console.log("family members", familyMembers)
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+}
+
+console.log(`${wardrobe.height}, ${wardrobe.manufacturer}, ${wardrobe.contents}, ${wardrobe.contents}, ${wardrobe.depth}, ${wardrobe.width}`)
+
+wardrobe.material = "Cedar"
+
+console.log(wardrobe)
+
