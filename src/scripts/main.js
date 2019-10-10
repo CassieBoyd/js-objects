@@ -66,6 +66,8 @@ console.log(`Square Feet: ${empireStateBuilding.squareFeet}`)
 console.log(`East West Length: ${empireStateBuilding.eastWestLength}`)
 console.log(`North South Length: ${empireStateBuilding.northSouthLength}`)
 
+
+// Read all the instructions, maybe?
 console.log(`Construction Date: ${empireStateBuilding["constructionDate"]}`)
 console.log(`Address: ${empireStateBuilding["address"]}`)
 console.log(`Owner: ${empireStateBuilding["owner"]}`)
