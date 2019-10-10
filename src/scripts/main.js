@@ -47,3 +47,27 @@ wardrobe.material = "Cedar"
 
 console.log(wardrobe)
 
+const empireStateBuilding = {
+    stories: 103,
+    height: 1453,
+    address: "350 Fifth Avenue, Manhattan, New York 10118",
+    squareFeet: 2768591,
+    constructionDate: 1931,
+    cost: 40948900,
+    owner: "Empire State Realty Trust",
+    eastWestLength: 424,
+    northSouthLength: 187,
+    architect: "Shreve, Lamb & Harmon"
+}
+
+console.log(`Stories: ${empireStateBuilding.stories}`)
+console.log(`Height: ${empireStateBuilding.height}`)
+console.log(`Square Feet: ${empireStateBuilding.squareFeet}`)
+console.log(`East West Length: ${empireStateBuilding.eastWestLength}`)
+console.log(`North South Length: ${empireStateBuilding.northSouthLength}`)
+
+console.log(`Construction Date: ${empireStateBuilding["constructionDate"]}`)
+console.log(`Address: ${empireStateBuilding["address"]}`)
+console.log(`Owner: ${empireStateBuilding["owner"]}`)
+console.log(`Architect: ${empireStateBuilding["architect"]}`)
+console.log(`Cost: ${empireStateBuilding["cost"]}`)
